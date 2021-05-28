@@ -1,0 +1,157 @@
+@media only screen and (max-width:700px) {
+
+    .cont1 {
+        margin-left: 3%;
+        width: 94%;
+        margin-right: 3%;
+        font-family: sans-serif;
+    }
+    .cont1 h1 {
+        font-size: 30px;
+    }
+
+    .cont1 p {
+        width: 90%;
+        font-size: 19px;
+    }
+    .cont1 button, .cont2a button {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    /* Content 2 mobile */
+
+    #content2 {
+        height: auto;
+    }
+
+    .cont2 {
+        margin: 20px 3%;
+        width: 94%;
+        height: auto;
+    }
+    .cont2a {
+        width: 100%;
+        float: left;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    .cont2a h1{
+        font-size: 30px;
+    }   
+    .cont2a p{
+        padding-right: 0px;
+        text-align: justify;
+        margin: 20px 0px;
+        font-size: 12px;
+    }
+    .cont2b {
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+    .imgleft ,.imgright{
+        height: 200px;
+    }
+    .cont2b img {
+        height: 180px;
+    }
+    .horizontal {
+        height: 200px;
+    }
+    /* Content 3 starts */
+
+    #content3 {
+        height:auto
+    }
+    .cont3 {
+        margin: 20px 3%;
+        width: 94%;
+        height: auto;
+    }
+    .cont3_p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+
+    .cont3div {
+        width: 94%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .two
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /* Footer style */
+    footer {
+        height: auto;
+        color:black
+    }
+    .footleft, .footright {
+        width: 94%;
+        height: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .footlinks, .footaddress, .footrightleft, .footrightright {
+        width: 100%;
+    }
+
+    /*navigation links */
+
+    #btnmenu
+    {
+        display:block;
+        width:80%;
+        margin:10px 10%;
+        background-color: chocolate;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-bottom: 10px;   
+    }
+    #menu {
+        height: 400px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: absolute;
+
+    }
+    #menu ul {
+        width: 85%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    
+    #menu ul li {
+        width: 100%;
+        float: left;
+        font-size: 19px;
+        background-color: chocolate;
+        margin-top: 10px;
+        list-style: none;
+        padding: 10px;
+    }
+    #menu {
+        display:none
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
