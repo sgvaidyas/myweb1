@@ -1,0 +1,35 @@
+<html>
+    <body onload="myinit()">
+        <form id="myform">
+            <label>Enter the element </label>
+            <input type="text" id="val">
+
+            <br>
+            <input type="button" id="add" value="ADD" onclick="addele()">
+            <input type="button" id="sum" value="SUM" onclick="sum_ele()">
+            <p id="para"></p>         
+        </form>
+        <script >
+            function myinit()
+            {
+                ob = [];
+            }            
+            function addele()
+            {
+                var x = document.getElementById("val").value;                
+                x  = parseInt(x);
+                ob.push(x);
+                document.getElementById("para").innerHTML= ob;
+            }
+            function sum_ele()
+            {
+                var res= 0;
+                for (var i in ob)
+                {
+                    res= res + ob[i];
+                }
+                alert("Sum = " + res);
+            }
+        </script>
+    </body>
+</html>

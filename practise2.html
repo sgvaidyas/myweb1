@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="drop"> Dropdown</button>
+        <div class="dp-cont">
+            <a href="">Hey</a>
+            <a href="">Hi</a>
+            <a href="">ME</a>
+            <a href="">There</a>     
+        </div>
+    </div>	
+</body>
+<style type="text/css">
+	.drop{
+        background-color: yellowgreen;
+        padding: 15px;
+        border: none;
+        font-size: 20px;
+    }
+    .dp-cont
+    {
+        position: absolute;
+        background-color: darkcyan;
+        min-width: 120px;
+        box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 20%);
+        display: none;
+    }
+    .dp-cont a
+    {
+        
+        color: white;
+        padding: 12px 10px;
+        display: block;
+        text-decoration: none;
+        font-size: 19px;
+    }
+    .dropdown:hover .dp-cont{
+        display:block
+    }
+    .dp-cont a:hover{
+        background-color: cyan;
+        color:darkblue
+    }
+    .drop:active{
+        background-color: yellow;
+    }
+    
+</style>
+</html>
+
+
